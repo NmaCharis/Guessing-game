@@ -11,6 +11,7 @@ def number_guessing_games_for_students ():
   my_secret_number = 33
 #We set the number of attempts the students will make, this is the maximum number of guesses by each player
   num_of_attempts = 5
+  guess_correctly = False
 #We are going to create the loop for the game 
   while num_of_attempts > 0:
     try:
@@ -23,6 +24,10 @@ def number_guessing_games_for_students ():
         print("PLEASE YOUR NUMBER IS TOO HIGH!!!!!!!")
       else:
         print(f"Congratulations you have guess it right, and the number is {my_secret_number}")
+        guess_correctly = True
         break
     except ValueError:
-      print("Your guess is invalid!!!!!!!") #The students guessed a letter instead of a number  
+      print("Your guess is invalid!!!!!!!") #The students guessed a letter instead of a number 
+    if not guess_correctly:
+      print("game over")
+number_guessing_games_for_students()
