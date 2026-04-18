@@ -12,9 +12,12 @@ The project is designed as a beginner-friendly application to demonstrate core p
 - Gives feedback if the guess is:
   - Too low
   - Too high
-- Ends when:
+    
+ Ends when:
   - The correct number is guessed  
   - All attempts are used
+ 
+  https://github.com/NmaCharis/Guessing-game/blob/main/game.py
 
 
 ## How to Play
