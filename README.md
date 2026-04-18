@@ -1,13 +1,12 @@
-# 🎮 Number Guessing Game
+# Number Guessing Game
 
-## 📌 Overview
+## Overview
 This is a simple Python-based number guessing game where the player attempts to guess a randomly generated number within a limited number of attempts.
 
 The project is designed as a beginner-friendly application to demonstrate core programming concepts such as loops, conditional logic, and user interaction.
 
----
 
-## ✨ Features
+## Features
 - Generates a secret number between **1 and 100**
 - Provides **limited attempts** (default = 5)
 - Gives feedback if the guess is:
@@ -17,15 +16,14 @@ The project is designed as a beginner-friendly application to demonstrate core p
   - The correct number is guessed  
   - All attempts are used
 
----
 
-## ▶️ How to Play
+## How to Play
 
 1. Clone or download this repository
 2. Open your terminal or command prompt
 3. Run the program:
 
-```bash
+bash
 python Game.py
 
 
@@ -50,20 +48,19 @@ Using while loops in Python
 Handling user input with input()
 Applying conditional statements (if, elif, else)
 Building simple interactive command-line applications
-🛠 Technologies Used
+Technologies Used
 Python
-👩‍💻 Author
+
+Author
 
 Chidinma Charity Igwe
 
-📄 License
+ License
 
 This project is licensed under the MIT License.
 
 
----
-
-# 🎯 What improved
+# What improved
 
 - ✔ Cleaner structure  
 - ✔ Professional wording  
@@ -71,16 +68,14 @@ This project is licensed under the MIT License.
 - ✔ Code block for example  
 - ✔ Better readability  
 
----
 
-# 💼 Why this matters
+# Why this matters
 
 This now:
 - Looks professional to recruiters ✔  
 - Easy to read ✔  
 - Shows you understand documentation ✔  
 
----
 
 If you want next:
-👉 I can upgrade your **GitHub profile README (main profile page)** to look like a recruiter magnet 💼
+I can upgrade your **GitHub profile README (main profile page)** to look like a recruiter magnet 
